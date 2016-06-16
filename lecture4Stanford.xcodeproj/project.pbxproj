@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A7D3B4A1D12FCB400B00548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B491D12FCB400B00548 /* AppDelegate.swift */; };
-		3A7D3B4C1D12FCB400B00548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B4B1D12FCB400B00548 /* ViewController.swift */; };
+		3A7D3B4C1D12FCB400B00548 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B4B1D12FCB400B00548 /* FaceViewController.swift */; };
 		3A7D3B4F1D12FCB400B00548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D3B4D1D12FCB400B00548 /* Main.storyboard */; };
 		3A7D3B511D12FCB400B00548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D3B501D12FCB400B00548 /* Assets.xcassets */; };
 		3A7D3B541D12FCB400B00548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D3B521D12FCB400B00548 /* LaunchScreen.storyboard */; };
 		3A7D3B5F1D12FCB400B00548 /* lecture4StanfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B5E1D12FCB400B00548 /* lecture4StanfordTests.swift */; };
+		3A7D3B6A1D13178000B00548 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B691D13178000B00548 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		3A7D3B461D12FCB400B00548 /* lecture4Stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lecture4Stanford.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D3B491D12FCB400B00548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A7D3B4B1D12FCB400B00548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7D3B4B1D12FCB400B00548 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		3A7D3B4E1D12FCB400B00548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7D3B501D12FCB400B00548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7D3B531D12FCB400B00548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		3A7D3B5A1D12FCB400B00548 /* lecture4StanfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lecture4StanfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D3B5E1D12FCB400B00548 /* lecture4StanfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture4StanfordTests.swift; sourceTree = "<group>"; };
 		3A7D3B601D12FCB400B00548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7D3B691D13178000B00548 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				3A7D3B491D12FCB400B00548 /* AppDelegate.swift */,
-				3A7D3B4B1D12FCB400B00548 /* ViewController.swift */,
+				3A7D3B4B1D12FCB400B00548 /* FaceViewController.swift */,
 				3A7D3B4D1D12FCB400B00548 /* Main.storyboard */,
+				3A7D3B691D13178000B00548 /* FaceView.swift */,
 				3A7D3B501D12FCB400B00548 /* Assets.xcassets */,
 				3A7D3B521D12FCB400B00548 /* LaunchScreen.storyboard */,
 				3A7D3B551D12FCB400B00548 /* Info.plist */,
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7D3B4C1D12FCB400B00548 /* ViewController.swift in Sources */,
+				3A7D3B4C1D12FCB400B00548 /* FaceViewController.swift in Sources */,
 				3A7D3B4A1D12FCB400B00548 /* AppDelegate.swift in Sources */,
+				3A7D3B6A1D13178000B00548 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
