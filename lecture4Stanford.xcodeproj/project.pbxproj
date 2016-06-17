@@ -14,6 +14,7 @@
 		3A7D3B541D12FCB400B00548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D3B521D12FCB400B00548 /* LaunchScreen.storyboard */; };
 		3A7D3B5F1D12FCB400B00548 /* lecture4StanfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B5E1D12FCB400B00548 /* lecture4StanfordTests.swift */; };
 		3A7D3B6A1D13178000B00548 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B691D13178000B00548 /* FaceView.swift */; };
+		3A7D3B6C1D13353400B00548 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D3B6B1D13353400B00548 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3A7D3B5E1D12FCB400B00548 /* lecture4StanfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture4StanfordTests.swift; sourceTree = "<group>"; };
 		3A7D3B601D12FCB400B00548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A7D3B691D13178000B00548 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		3A7D3B6B1D13353400B00548 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3A7D3B491D12FCB400B00548 /* AppDelegate.swift */,
 				3A7D3B4B1D12FCB400B00548 /* FaceViewController.swift */,
 				3A7D3B4D1D12FCB400B00548 /* Main.storyboard */,
+				3A7D3B6B1D13353400B00548 /* FacialExpression.swift */,
 				3A7D3B691D13178000B00548 /* FaceView.swift */,
 				3A7D3B501D12FCB400B00548 /* Assets.xcassets */,
 				3A7D3B521D12FCB400B00548 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7D3B4C1D12FCB400B00548 /* FaceViewController.swift in Sources */,
+				3A7D3B6C1D13353400B00548 /* FacialExpression.swift in Sources */,
 				3A7D3B4A1D12FCB400B00548 /* AppDelegate.swift in Sources */,
 				3A7D3B6A1D13178000B00548 /* FaceView.swift in Sources */,
 			);
@@ -394,6 +398,7 @@
 				3A7D3B651D12FCB400B00548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7D3B661D12FCB400B00548 /* Build configuration list for PBXNativeTarget "lecture4StanfordTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				3A7D3B681D12FCB400B00548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
